@@ -164,7 +164,7 @@ export const PortfolioView: React.FC<PortfolioViewProps> = ({
               className="w-full sm:w-auto px-5 sm:px-6 py-3 rounded-xl bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-800 dark:text-white font-bold text-sm border border-slate-200 dark:border-slate-700 shadow-xs transition-all hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer"
             >
               <Terminal className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-              View Executive CV
+              View CV
             </button>
 
             <a
@@ -172,7 +172,7 @@ export const PortfolioView: React.FC<PortfolioViewProps> = ({
               className="w-full sm:w-auto px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800/70 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold text-sm flex items-center justify-center gap-2 transition-colors"
             >
               <Mail className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-              Contact Ali
+              Contact Me
             </a>
           </div>
         </div>
