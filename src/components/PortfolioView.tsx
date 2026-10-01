@@ -15,7 +15,7 @@ import { ExperienceTimeline } from './ExperienceTimeline';
 import { ContactSection } from './ContactSection';
 import { SectionNav } from './SectionNav';
 import { FloatingTechIcons } from './FloatingTechIcons';
-import { OrbitAvatar } from './OrbitAvatar';
+// import { OrbitAvatar } from './OrbitAvatar';
 
 const LinkedInIcon = ({ className = 'w-4 h-4' }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -106,7 +106,7 @@ export const PortfolioView: React.FC<PortfolioViewProps> = ({
         <div className="pointer-events-none absolute -bottom-28 -left-16 h-72 w-72 rounded-full bg-sky-400/20 dark:bg-sky-500/20 blur-3xl animate-float-slow" style={{ animationDelay: '3s' }} />
 
         <div className="relative space-y-5 sm:space-y-7 text-center">
-          <OrbitAvatar />
+          {/* <OrbitAvatar /> */}
 
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/30 text-[11px] sm:text-xs font-semibold text-emerald-700 dark:text-emerald-400">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 pulse-indicator" />
